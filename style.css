@@ -1,0 +1,88 @@
+body{
+    
+    
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+   
+}
+
+.containerr {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1009px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 10px;
+    border-color: #f2ac04;
+    margin-top: -10px;
+    
+    
+    
+}
+.logo {
+    margin-left: 31px;
+    padding-top: 35px;
+}
+.head {
+    display: inline-block;
+    vertical-align: top;
+}
+#h {
+     margin-left: 19px;
+     font-size: 33px;
+     padding-top: 25px;
+}
+#hp {
+    color: #f2ac04;
+    margin-left: 62px;
+    padding-top: 23px;
+    
+}
+.head_p {
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    color: #ababab;
+    margin-left: 310px;
+    margin-top: -32px;
+    margin-bottom: 40px;
+}
+.nav {
+    height: 42px;
+    width: 930px;
+    margin-left: 40px;
+    padding-top: 10px;
+    border-top: 0.1px solid;
+    border-bottom: 0.1px solid;
+    border-color: #6b6b6b;
+}
+#first_nav {
+    margin-left: 0;
+}
+.nav_menu {
+    height: 100%;
+    text-decoration: none;
+    color: #6b6b6b;
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 32px;
+    transition: color .3s linear;
+}
+a.nav_menu:hover{
+    color: #f2ac04;
+}
+
